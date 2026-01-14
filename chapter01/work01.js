@@ -1,8 +1,10 @@
 // セミコロン
 // セミコロンあり
-const name = "Sara"
-console.log("Hello, " + name)
+const name = 'Sara';
+console.log('Hello, ' + name);
 
 // セミコロンなし
+// prettier-ignore
 const age = 14
-console.log("I am " + age)
+// prettier-ignore
+console.log('I am ' + age)
