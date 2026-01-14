@@ -4,7 +4,5 @@ const name = 'Sara';
 console.log('Hello, ' + name);
 
 // セミコロンなし
-// prettier-ignore
-const age = 14
-// prettier-ignore
-console.log('I am ' + age)
+const age = 14;
+console.log('I am ' + age);
