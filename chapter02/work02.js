@@ -1,6 +1,7 @@
+//関数スコープの変数
 function showName() {
-    // 関数スコープの変数(ローカルスコープ)
-    var name = "Bob";
+    // 関数スコープの変数
+    const name = 'Bob';
     console.log(name);
 }
 
@@ -8,4 +9,4 @@ function showName() {
 showName();
 
 // 関数スコープの変数は呼び出せない
-console.log(name);  // これはエラー
+console.log(name); // これはエラー

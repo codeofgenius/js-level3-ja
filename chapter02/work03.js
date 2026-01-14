@@ -1,10 +1,9 @@
-function showName() {
-    // ブロックスコープ
-    let name = "Ariana";
+// ブロックスコープの変数
+{
+    // ブロックスコープの変数
+    const name = 'Bob';
     console.log(name);
 }
-// 関数呼び出し
-showName();
 
 // ブロックスコープの変数はブロック外では利用不可
 console.log(name); // これはエラー

@@ -1,13 +1,8 @@
-// ブロックスコープ変数
-let x = 10;
-
-// これはOK
-console.log(x);
-
-if( x == 10 ) {
-    // ブロックスコープ変数
-    let message = "Xは10です";
+// ブロックスコープの変数
+for (let i = 0; i < 3; i++) {
+    //ブロックスコープの変数
+    let message = 'Hello';
 }
 
-// ブロック外なのでNG
+// ブロック外なので利用不可
 console.log(message); // これはエラー

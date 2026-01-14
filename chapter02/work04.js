@@ -1,13 +1,10 @@
-// グローバル変数
-var x = 10;
+// ブロックスコープの変数
+let color = 'red';
 
-// グローバル変数は利用可能
-console.log(x);
-
-if(x == 10) {
-    // これはグローバル変数
-    var message = "Xは10です";
+if (color == 'red') {
+    // ブロックスコープの変数
+    let message = 'This is red';
 }
 
-// グローバル変数は利用可能
-console.log(message);
+// ブロック外なので利用不可
+console.log(message); // これはエラー
