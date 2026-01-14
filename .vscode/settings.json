@@ -1,4 +1,6 @@
 {
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.codeActionsOnSave": {
         "source.addMissingImports": "explicit",
         "source.fixAll.eslint": "explicit"

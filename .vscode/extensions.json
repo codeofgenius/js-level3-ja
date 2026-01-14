@@ -1,5 +1,7 @@
 {
     "recommendations": [
+        // material file icon theme
+        "pkief.material-icon-theme",
         // Integrates ESLint JavaScript into VS Code.
         "dbaeumer.vscode-eslint",
         // spell checker
