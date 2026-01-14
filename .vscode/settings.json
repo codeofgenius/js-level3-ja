@@ -23,7 +23,7 @@
     "prettier.printWidth": 80,
     "prettier.semi": false,
     "prettier.tabWidth": 4,
-    "prettier.ignorePath": ".gitignore",
+    "prettier.ignorePath": ".prettierignore",
     "css.lint.unknownAtRules": "ignore",
     "redhat.telemetry.enabled": false,
     "explorer.fileNesting.enabled": true,
