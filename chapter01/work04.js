@@ -1,26 +1,16 @@
-// データ型
-// boolean
-console.log(typeof true);
+// 再代入できない変数だが要素の変更は可能
+// 配列作成
+const colors = ['red', 'blue', 'green'];
+console.log(colors);
 
-// number
-console.log(typeof 12);
+// 再代入ではなく要素の変更は可能
+colors[0] = 'white';
+console.log(colors);
 
-// bigint
-console.log(typeof 123456789n);
+// オブジェクト作成
+const person = { name: 'Bob', age: 16 };
+console.log(person);
 
-// string
-console.log(typeof 'こんにちは');
-
-// object array
-const numbers = [10,4,2];
-console.log(typeof numbers);
-
-// object
-const person = { 'name' : 'Bob' };
-console.log(typeof person);
-
-// function
-function add(a, b) {
-    return a + b;
-}
-console.log(typeof add);
+// 再代入ではなくオブジェクトの値の変更は可能
+person.name = 'Tom';
+console.log(person);

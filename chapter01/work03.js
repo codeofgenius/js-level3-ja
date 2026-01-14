@@ -1,7 +1,7 @@
-// 再代入できる変数宣言
-let book = 'We Love Cooking';
-console.log( 'Book Title:' + book);
+// 再代入できない変数
+const name = 'Elsa';
 
-// 再代入可能な変数
-book = 'We Love Swimming';
-console.log( 'Book Title:' + book);
+console.log('My name is ' + name);
+
+// 再代入するとエラー
+name = 'Anna';

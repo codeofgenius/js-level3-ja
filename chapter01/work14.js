@@ -1,15 +1,10 @@
-// コメント
+// オブジェクト
+const person = {
+    name: 'Donald',
+    age: 15,
+};
 
-console.log( 'Good Morning' );
+console.log(person);
 
-// 1行のコメント
-// const name = 'Bob';
-
-// 複数行のコメント
-/*
-console.log( 'How are you' );
-console.log( 'I am very tired' );
-console.log( 'I want to go out' );
-*/
-
-console.log( 'Good Night' );
+console.log(person['name']);
+console.log(person.age);

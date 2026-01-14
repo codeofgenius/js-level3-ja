@@ -1,8 +1,7 @@
-// 文字列
-// ダブルクォーテーション
-const name1 = "Mike";
-console.log( name1 );
+// BigInt 数値
 
-// シングルクォーテーション
-const name2 = 'Donald';
-console.log( name2 );
+// 整数「 2の53乗-1」より大きな値を扱える
+// 1n
+console.log(1n);
+// 123456789123456n
+console.log(123456789123456n);

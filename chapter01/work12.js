@@ -1,8 +1,11 @@
-// 配列
-const colors = ['red', 'blue', 'yello', 'pink'];
-console.log( colors );
+// テンプレートリテラル
+// テンプレートリテラルは改行をふくめることができる文字列
+const message = `トンネルを
+抜けると
+そこは雪国だった`;
 
-console.log( colors[0] );
-console.log( colors[1] );
-console.log( colors[2] );
-console.log( colors[3] );
+console.log(message);
+
+// テンプレートリテラルは変数を展開する文字列
+const myself = '猫';
+console.log(`わがはいは${myself}である`);

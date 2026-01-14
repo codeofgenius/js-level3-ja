@@ -1,13 +1,11 @@
-// テンプレートリテラル
-// テンプレートリテラルは改行をふくめることができる文字列
-const message = `トンネルを
-抜けると
-そこは雪国だった`;
+// 文字列のエスケープ
 
-console.log( message );
+// 文字列内にシングルクォーテーション
+console.log("I'm fine");
+// エスケープでシングルクォーテーションを表現
+console.log('I\'m fine');
 
-console.log('=====');
-
-// テンプレートリテラルは変数を展開する文字列
-const myself = '猫';
-console.log( `わがはいは${myself}である`);
+// 文字列内にダブルクォーテーション
+console.log('I love "Michael Jackson" very much');
+// エスケープでダブルクォーテーションを表現
+console.log("I love \"Michael Jackson\" very much");

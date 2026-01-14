@@ -1,7 +1,3 @@
-// BigInt 数値
-
-// 整数「 2の53乗-1」より大きな値を扱える
-// 1n
-console.log(1n);
-// 123456789123456n
-console.log(123456789123456n);
+// 小数点　Number
+console.log(3.14159);
+console.log(12.3456);
