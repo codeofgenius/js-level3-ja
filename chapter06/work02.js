@@ -1,6 +1,6 @@
 // 無名関数を変数に代入
-let sayHello = function() {
-    console.log("Hello");
+const sayHello = function (name) {
+    console.log('I am ' + name);
 };
 
-sayHello();
+sayHello('Bob');
