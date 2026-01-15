@@ -15,5 +15,5 @@ const num = 5;
 if (num <= 5 || num >= 10) {
     console.log('numは5以下、または10以上です');
 } else {
-    console.log('numは5以下、または10以下ではありません');
+    console.log('numは5以下、または10以上ではありません');
 }
