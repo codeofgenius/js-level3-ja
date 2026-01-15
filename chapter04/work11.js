@@ -7,5 +7,5 @@ function multiply(x, y, z) {
 const numbers = [2, 4, 5];
 
 // スプレッド演算子で配列の要素を展開して、関数の引数として呼び出す
-const result = multiply( ...numbers );
-console.log( result ); // 40
+const result = multiply(...numbers);
+console.log(result); // 40
