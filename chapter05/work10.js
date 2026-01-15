@@ -1,6 +1,11 @@
 // for-of文4
-const name = '乃木坂46';
+const magician = {
+    name: 'Alice',
+    age: 17,
+    hobby: 'magic',
+    address: 'Wonderland',
+};
 
-for ( const s of name ) {
-    console.log( s );
+for (const [key, value] of Object.entries(magician)) {
+    console.log(`${key} is ${value}`);
 }

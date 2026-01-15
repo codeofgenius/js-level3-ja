@@ -2,6 +2,6 @@
 let x = 100;
 
 do {
-    console.log( x );
+    console.log(x);
     x += 1;
-} while ( x < 10 );
+} while (x < 10);
