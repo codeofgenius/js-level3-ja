@@ -6,6 +6,3 @@
 I'm happy
 I drink "coffee" every day
 */
-
-console.log("I'm happy");
-console.log('I drink "coffee" every day');
